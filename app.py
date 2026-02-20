@@ -10,8 +10,8 @@ st.title("Aplikasi Prediksi Gaji Awal Lulusan Pelatihan Vokasi")
 
 # --- 1. Muat Model dan Scaler ---
 # Pastikan path file benar jika dijalankan di lingkungan yang berbeda
-model_filename = 'gradient_boosting_model.pkl'
-scaler_filename = 'standard_scaler.pkl'
+model_filename = 'model_gaji.pkl'
+scaler_filename = 'scaler.pkl'
 
 try:
     with open(model_filename, 'rb') as file:
